@@ -1,5 +1,6 @@
-<!doctype html>
 {% load static %}
+
+<!doctype html>
 <html lang="en">
 
 <head>
@@ -21,22 +22,25 @@
 
 <body>
 
-    <div class="container">
+    <main>
+        <div class="container">
 
-        <!-- include navbar -->
-        {% include 'accounts/navbar.html' %}
+            <!-- include navbar -->
+            {% include 'accounts/navbar.html' %}
 
-        <!-- extends our html parts -->
-        {% block content %}
+            <!-- extends our html parts -->
+            {% block content %}
 
-        {% endblock %}
+            {% endblock %}
 
-        <!-- include footer -->
-        <hr>
-        <footer>
-            <h1>Footer</h1>
-        </footer>
-    </div>
+            <!-- include footer -->
+            <hr>
+
+            <footer>
+                <h1>Footer</h1>
+            </footer>
+        </div>
+    </main>
 
 </body>
 

@@ -9,6 +9,15 @@ body {
   min-height: 110vh;
 }
 
+main {
+  margin-top: 6rem;
+}
+
+nav img.logo {
+  width: 75px;
+  margin-right: 2rem;
+}
+
 #total-orders {
   background-color: #4cb4c7;
 }
